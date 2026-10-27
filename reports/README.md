@@ -1,5 +1,6 @@
-# 📑 BurnAid AI - Project Research Reports
+# Research & Technical Reports
 
-Thư mục chứa các bản báo cáo toàn văn nghiên cứu và xây dựng hệ thống BurnAid AI:
-- **BAO_CAO_HE_THONG_BURNAID.docx**: Báo cáo chuyên sâu kiến trúc hệ thống, cơ sở lý thuyết, mô hình AI và thực nghiệm đánh giá.
-- **BAO_CAO_BURNAID_HOAN_CHINH.docx**: Báo cáo tổng kết đồ án đề tài hoàn chỉnh.
+Full-text research and engineering reports for the BurnAid AI project:
+
+- **BAO_CAO_HE_THONG_BURNAID.docx**: In-depth system architecture, theoretical foundations, AI pipeline design, and clinical validation report.
+- **BAO_CAO_BURNAID_HOAN_CHINH.docx**: Final academic thesis and comprehensive project report.
