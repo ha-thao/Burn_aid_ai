@@ -1,33 +1,18 @@
-# 📦 BurnAid AI - Training Dataset (Kaggle)
+# Burn Training Dataset
 
-Toàn bộ tập dữ liệu ảnh y khoa tổn thương bỏng (gồm hàng nghìn ảnh đa mức độ và mặt nạ phân đoạn tổn thương) được lưu trữ công khai trên nền tảng **Kaggle** để tối ưu hóa việc phân phối dữ liệu lớn:
+The full clinical burn image dataset is hosted on Kaggle to facilitate large-scale medical data distribution:
 
-### 🔗 Liên kết tải Dataset:
-👉 **[Kaggle Dataset: BurnAid AI Clinical Burn Images](https://www.kaggle.com/)** *(Thay bằng đường dẫn Kaggle của bạn)*
-
----
-
-### 🗂️ Cấu trúc tập dữ liệu trên Kaggle:
-
-`	ext
-burn_dataset/
-├── 📁 train/
-│   ├── Degree_1/          # Ảnh bỏng độ 1 (Superficial)
-│   ├── Degree_2/          # Ảnh bỏng độ 2 (Partial Thickness - nốt phỏng)
-│   ├── Degree_3/          # Ảnh bỏng độ 3 (Full Thickness - hoại tử)
-│   └── Normal_Skin/       # Ảnh da lành không bỏng
-├── 📁 val/
-│   ├── Degree_1/
-│   ├── Degree_2/
-│   ├── Degree_3/
-│   └── Normal_Skin/
-└── 📁 masks/              # Nhãn phân đoạn nhị phân (Binary Masks) cho U-Net++
-`
+### 🔗 Kaggle Dataset Link:
+👉 **(https://www.kaggle.com/code/faresabbasai2022/skin-burn-detection-acc-97/input)**
+👉 **(https://www.kaggle.com/competitions/itobos-2024-detection/data)**
 
 ---
 
-### 💡 Hướng dẫn sử dụng:
-1. Truy cập liên kết Kaggle ở trên và nhấn **Download**.
-2. Giải nén vào thư mục data/ trong dự án nếu bạn muốn chạy lại các file Jupyter Notebook trong thư mục 
-otebooks/ để huấn luyện lại từ đầu.
-3. Đối với người dùng chỉ muốn **chạy ứng dụng Web**, bạn **không cần tải bộ dữ liệu này** vì hệ thống đã nạp sẵn trọng số mô hình đã huấn luyện trong thư mục models/ và cơ sở dữ liệu cấu hình trong urnaid.db.
+### 🗂️ Dataset Hierarchy:
+- **	rain/ & 
+al/**:
+  - Degree_1/: Superficial epidermal burns.
+  - Degree_2/: Partial-thickness dermal burns with blistering.
+  - Degree_3/: Full-thickness deep burns with necrotic tissue.
+  - Normal_Skin/: Healthy uninjured skin controls.
+- **masks/**: Binary pixel-level segmentation masks for lesion boundary and area evaluation.
